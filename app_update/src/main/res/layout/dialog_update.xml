@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/update_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="发现新版本"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <TextView
+        android:id="@+id/update_dialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:minWidth="250dp"
+        android:padding="20dp"
+        android:text="There are numerous articles on the Internet that provide an
+        overview of the Android Activity lifecycle, as well as the corresponding Fragment lifecycle.
+         One thing that I have found lacking, however, is a detailed "
+        android:textColor="@android:color/black"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:weightSum="100"
+        >
+
+        <TextView
+            android:id="@+id/update_dialog_negative"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="49"
+            android:background="@null"
+            android:gravity="center"
+            android:text="取消"
+            />
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray"
+            />
+
+        <TextView
+            android:id="@+id/update_dialog_positive"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="49"
+            android:background="@null"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+</LinearLayout>
