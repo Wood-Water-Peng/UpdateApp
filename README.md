@@ -1,0 +1,4 @@
+# UpdateApp
+一个简单的升级Module
+暂时提供一个简单的Dialog和一个notification进行后台升级
+后面会完善升级流程，使用起来会更加的稳定,智能
